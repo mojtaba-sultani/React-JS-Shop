@@ -1,0 +1,68 @@
+.swiper {
+  width: 100%;
+  height: 100dvh;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.parallax-bg {
+  /* background-position: -400px -40px !important; */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 140%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+@media screen and (min-width: 0px) and (max-width: 640px) {
+  .parallax-bg {
+    background-position: -510px 0px !important;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .parallax-bg {
+    background-position: -410px 0px !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .parallax-bg {
+    background-position: -300px 0px !important;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .parallax-bg {
+    background-position: -210px 0px !important;
+  }
+}
+@media (min-width:1281px) {
+  .parallax-bg {
+    background-position: -310px 0px !important;
+  }
+}
